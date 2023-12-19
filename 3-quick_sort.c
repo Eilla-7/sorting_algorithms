@@ -18,7 +18,7 @@ void swap(int *a, int *b)
  * @low: the lower index
  * @high: the higher index
  * @size: the size of the array
- *
+ * Return: piovt index
  */
 int lomuto_partition(int *array, int low, int high, size_t size)
 {
