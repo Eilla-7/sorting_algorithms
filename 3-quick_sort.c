@@ -1,5 +1,11 @@
 #include "sort.h"
 
+/**
+ * swap - function to swap two variables
+ * @a: the first one
+ * @b: the second one
+ *
+ */
 void swap(int *a, int *b)
 {
 	int temp = *a;
