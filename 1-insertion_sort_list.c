@@ -10,10 +10,8 @@ listint_t *return_head(listint_t *listt)
 	while (listt && listt->prev != NULL)
 		listt = listt->prev;
 
-	return listt;
+	return (listt);
 }
-
-
 
 /**
  * insertion_sort_list - function that uses insertion sort to sort the list
@@ -23,10 +21,10 @@ listint_t *return_head(listint_t *listt)
  */
 void insertion_sort_list(listint_t **list)
 {
-	
+
 	listint_t *temp1;
 	listint_t *temp2;
-       	listint_t *spot;
+	listint_t *spot;
 
 	if (!list || !(*list) || !(*list)->next)
 		return;
