@@ -50,6 +50,8 @@ int lomuto_partition(int *array, int low, int high, size_t size)
  * @lower: the lower index
  * @higher: the higher index
  * @size: the size of the array
+ *
+ * Return: void
  */
 void sort_helper(int *array, int lower, int higher, size_t size)
 {
