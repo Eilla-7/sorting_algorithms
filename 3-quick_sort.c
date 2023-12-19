@@ -44,7 +44,13 @@ int lomuto_partition(int *array, int low, int high, size_t size)
 		print_array(array, size);
 	return (pv_index);
 }
-
+/**
+ * sort_helper - function to help the work of the algorithm
+ * @array: the array to be sorted
+ * @lower: the lower index
+ * @higher: the higher index
+ * @size: the size of the array
+ */
 void sort_helper(int *array, int lower, int higher, size_t size)
 {
 	int pv_index;
