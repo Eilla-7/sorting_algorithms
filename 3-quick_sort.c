@@ -12,7 +12,14 @@ void swap(int *a, int *b)
 	*a = *b;
 	*b = temp;
 }
-
+/**
+ * lomuto_partition - function to split the array into 2 paritions
+ * @array: the array to be splited
+ * @low: the lower index
+ * @high: the higher index
+ * @size: the size of the array
+ *
+ */
 int lomuto_partition(int *array, int low, int high, size_t size)
 {
 	int pv_index = low;
